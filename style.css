@@ -196,7 +196,7 @@
 }
 .destinaion-wrap {
   display: flex;
-  height: 800px;
+  height: 100vh;
   gap: 100px;
 }
 /* .destination-box{
@@ -223,26 +223,24 @@
   display: flex;
   width: 100px;
   /* border: 1px solid rgb(43, 255, 0); */
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: ceanter;
 }
 .address img {
   width: 20px;
   height: 20px;
 }
-.address  p {
+.address p {
   font-size: 20px;
   font-weight: 700;
 }
-.Packages{
+.Packages {
   width: 100%;
   /* height: 700px; */
   padding: 30px 120px;
-  background-color:#ECF1F0;
-  
-  
+  background-color: #ecf1f0;
 }
-.Packages h2{
+.Packages h2 {
   width: 500px;
   font-size: 40px;
   margin-bottom: 20px;
@@ -250,51 +248,47 @@
   margin-right: auto;
   /* justify-content: center; */
 }
-.Deals{
+.Deals {
   display: flex;
   /* justify-content: space-between; */
   gap: 70px;
 }
-.Deals button{
+.Deals button {
   width: 130px;
   height: 40px;
   border-radius: 10px;
-  
+
   background-color: #666666;
-  
+
   border: none;
   color: #ffffff;
 }
-.Deals-button-grey{
+.Deals-button-grey {
   background-color: #666666;
-  ;
 }
-.Packages-wrap{
+.Packages-wrap {
   display: flex;
   margin-top: 80px;
   margin-bottom: 80px;
   gap: 35px;
 }
-.Packages-wrap-card{
+.Packages-wrap-card {
   width: 350px;
   height: 450px;
   border-radius: 15px;
   /* border: 1px solid rgb(255, 47, 47) */
-
 }
-.Packages-wrap-card img{
+.Packages-wrap-card img {
   height: 250px;
   width: 350px;
   border-radius: 15px;
 }
-.Packages-wrap-card p{
+.Packages-wrap-card p {
   width: 320px;
   /* border: 1px solid rgb(255, 102, 0); */
   font-size: 16px;
   margin-left: 20px;
   margin-top: 5px;
-
-  
 }
 .pricing-text {
   display: flex;
@@ -306,41 +300,38 @@
   margin-bottom: 5px;
 
   /* justify-content: space-between;   */
-  
 }
-.pricing-text p{
+.pricing-text p {
   width: 150px;
   margin: 5px auto;
-  
+
   justify-content: space-between;
   /* border: 1px solid purple; */
-
 }
-.p2{
+.p2 {
   padding-left: 30px;
 }
-.locate{
+.locate {
   display: flex;
 }
-.locate img{
+.locate img {
   width: 25px;
   height: 25px;
 }
-.location-wrap{
+.location-wrap {
   display: flex;
   width: 350px;
   justify-content: space-between;
-  
 }
-.location-wrap h6{
+.location-wrap h6 {
   font-size: 17px;
   font-weight: 600;
 }
-.location-wrap a{
+.location-wrap a {
   color: black;
   font-size: 12px;
 }
-.cta{
+.cta {
   display: flex;
   width: 200px;
   height: 40px;
@@ -349,115 +340,131 @@
   border: none;
   margin-left: auto;
   margin-right: auto;
-  background-color: #00A651; 
+  background-color: #00a651;
   color: #ffffff;
   border-radius: 10px;
   font-size: 10px;
   font-weight: 700;
 }
-.booking-wrap{
-  display: block;
-  width: 1000px;
+.booking-page{
+  width: 90%;
+  display: flex;
+  /* border: 1px solid red; */
+  margin: 0px auto;
+}
+
+.booking-wrap {
+  /* display: flex; */
+  width: 60%;
   margin: 100px auto 50px auto;
   padding-top: 50px;
-  /* border: 1px solid blue; */
 }
-.book-logo{
+.booking-trip{
+  width: 40%;
+  /* border: 1px solid blue; */
+
+}
+.booking-cont{
+  display: flex;
+  width: 100%;
+  /* border: 1px solid rgb(255, 60, 0); */
+
+}
+.booking-page-img{
+  width: 100%;
+  /* border: 1px solid rgb(0, 255, 128); */
+  margin-top: 30px;
+}
+.book-logo {
   display: block;
   width: 450px;
   gap: 20px;
   /* border: 1px solid red; */
 }
-.book-logo-wrap{
+.book-logo-wrap {
   display: flex;
   gap: 20px;
   margin-top: 40px;
   margin-bottom: 5px;
 }
-.book-1{
+.book-1 {
   width: 40px;
   height: 40px;
-  background-color: #F0BB1F;
+  background-color: #f0bb1f;
   margin: 10px;
   border-radius: 5px;
   padding: 7.5px 7.5px 7.5px 7.5px;
-  
 }
-.book-2{
+.book-2 {
   width: 40px;
   height: 40px;
-  background-color: #F15A2B;
-  ;
+  background-color: #f15a2b;
   margin: 10px;
   border-radius: 5px;
   padding: 7.5px 7.5px 7.5px 7.5px;
-  
 }
-.book-3{
+.book-3 {
   width: 40px;
   height: 40px;
   background-color: #006380;
   margin: 10px;
   border-radius: 5px;
   padding: 7.5px 7.5px 7.5px 7.5px;
-  
 }
 
-.book-img{
+.book-img {
   width: 25px;
   height: 25px;
   /* margin: 7.5px auto; */
-  
 }
-.book-txt{
+.book-txt {
   display: inline;
   width: 10px;
   font-size: 200;
   font-weight: 400;
-  
-  text-align: center; 
+
+  text-align: center;
 }
-.book-logo h6{
+.book-logo h6 {
   width: 200px;
   font-size: 16px;
   font-weight: 700;
 }
 
-.bookings h2{
+.bookings h2 {
   font-size: 30px;
   font-weight: 700;
   margin: 30px auto 0px auto;
-  
+
   text-align: center;
 }
-.bookings p{
+.bookings p {
   font-size: 20px;
   font-weight: 400;
   margin: 0px auto;
-  
+
   text-align: center;
 }
 
-.testimony-wrap{
+.testimony-wrap {
   width: 100%;
   height: 600px;
   /* border: 1px solid red; */
   padding: 25px 60px;
-  background: #ECF1F0;
-
+  background: #ecf1f0;
 }
-.testimony-wrap h2{
+.testimony-wrap h2 {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 40px;
 }
-.testimony-bg{
+.testimony-bg {
   height: 380px;
   display: block;
   margin: 0px auto;
 }
-.testimony-card{
+.testimony-card {
   width: 500px;
   height: 200px;
   background-color: white;
@@ -467,75 +474,154 @@
   position: absolute;
   bottom: -50px;
   right: 350px;
-  
 }
-.testimony-card h5{
+.testimony-card h5 {
   width: 400px;
   text-align: center;
 }
-.pp{
+.pp {
   width: 90px;
   height: 90px;
   position: absolute;
   bottom: 115px;
   right: 550px;
 }
-.testimony-content{
-  
+.testimony-content {
   position: relative;
 }
-.Subscribe-content{
-  /* border: 1px solid yellowgreen; */
+.Subscribe-content {
   position: relative;
 }
-.Subscribe-wrap{
+.Subscribe-wrap {
   display: block;
   width: 65%;
   height: 250px;
-  background: #9FFFEC;
+  background: #9fffec;
   margin: 40px auto 80px auto;
   border-radius: 80px 15px 15px 15px;
   padding: 30px 100px;
-  /* border: 1px solid blue; */
   /* position: relative; */
   /* opacity: 80%; */
-
 }
-.Subscribe-wrap p{
+.Subscribe-wrap p {
   width: 700px;
-  text-align: center; 
+  text-align: center;
   font-weight: 600;
   font-size: 25px;
-
-  
 }
-.Subscribe-tab{
+.Subscribe-tab {
   display: flex;
   height: 40px;
   margin-top: 30px;
   padding-left: 80px;
   padding-right: auto;
-  /* border: 1px solid red; */
   gap: 20px;
 }
-.holder-key{
+.holder-key {
   width: 45%;
-  background-image: url(./images/Rectangle\ 22.png,);
+  /* background-image: url(./images/Rectangle\ 22.png); */
   border: none;
   background-repeat: no-repeat;
 }
-.Subscribe-cta{
+.Subscribe-cta {
   width: 15%;
-  background: #00A651;
+  background: #00a651;
   color: white;
   border-radius: 7px;
   border: none;
-
 }
-.pp1{
+.pp1 {
   width: 40px;
   height: 40px;
   position: absolute;
   top: 0px;
   right: 220px;
+}
+.footer {
+  width: 80%;
+  height: 100vh;
+  /* border: 1px solid red; */
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.trip {
+  width: 18%;
+  /* border: 1px solid blue; */
+}
+.trip h2 {
+  font-size: 1.2rem;
+  width: 20px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.trip p {
+  font-size: 0.8rem;
+}
+.comp {
+  width: 10%;
+  /* border: 1px solid yellowgreen; */
+}
+.comp h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.comp p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+.cont {
+  width: 10%;
+  /* border: 1px solid yellowgreen; */
+}
+.cont h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.cont p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+.fee {
+  width: 10%;
+  /* border: 1px solid yellowgreen; */
+}
+.fee h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.fee p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+.disc {
+  width: 100%;
+  /* border: 1px solid yellowgreen; */
+  height: 70px;
+  position: relative;
+}
+.disc-class {
+  width: 20%;
+  margin-top: 60px;
+}
+.place{
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.apple{
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
